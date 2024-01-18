@@ -29,5 +29,3 @@ def check_price():
 while True:
     check_price()
     time.sleep(86400)
-    df = pd.read_csv(r"C:\Users\Kevin\PycharmProjects\Amazon_Webscraper\AmazonData.csv")
-    print(df)
